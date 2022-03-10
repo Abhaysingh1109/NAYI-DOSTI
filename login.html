@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dosti Yaari/login</title>
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css"
+    />
+
+    <!-- cometchat -->
+    <script type="text/javascript" src="https://unpkg.com/@cometchat-pro/chat@3.0.6/CometChat.js"></script>
+
+    <script defer src="https://widget-js.cometchat.io/v3/cometchatwidget.js"></script>
+
+    <!-- CSS for login.html -->
+    <link rel="stylesheet" href="./css/login.css">
+  </head>
+  <body>
+    <!-- The surrounding HTML is left untouched by FirebaseUI.
+         Your app may use that space for branding, controls and other customizations.-->
+    <h1 class="heading" style="text-align: center"> <span class="head_span">W</span>elcome <span class="head_span">D</span>osti <span class="head_span">Y</span>aari</h1>
+    <div id="firebaseui-auth-container"></div>
+    <img class="image2" src="./image/image.png" alt="image">
+    <img class="image" src="./image/image1.png" alt="image">
+    <video class="video" src="./video/video1.mp4" autoplay loop muted></video>
+
+    <footer>
+      <hr>
+      <div class="footer">Created by Abhay Pratap Singh <span class="span_line">|</span> 2022</div>
+    </footer>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/init.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Mochiy+Pop+One&display=swap');
+/* whole page box-sizing */
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family:"Poppins",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px;
+}
+
+.heading
+{
+    font-size: 57px;
+    color: rgba(218, 236, 56, 0.726);
+    text-decoration: underline;
+    font-style: italic;
+    /* color: white; */
+    /* text-shadow: 2px 2px 4px #000000; */
+    /* text-shadow: 0 0 3px, 0 0 5px #08085221; */
+    text-shadow: 5px 5px 6px #000000;
+    text-decoration-color: aliceblue;
+    text-underline-position: under;
+    margin-bottom: 138px;
+}
+/* Heading world decoration */
+
+.head_span 
+{
+    color: rgba(221, 102, 33, 0.746);
+}
+/* Heading hover */
+
+.heading:hover,heading:active
+{
+   font-size: 460%;
+}
+
+/* This is a next button  */
+
+.mdl-button--raised.mdl-button--colored {
+    background:rgba(139, 214, 219, 0.466);
+    color:black;
+    border-radius: 20px;
+}
+/* This is a next button hover using green color */
+
+.mdl-button--raised.mdl-button--colored:hover,mdl-button--raised.mdl-button--colored{
+    background-color: green;
+    font-size: 130%;
+}
+/* This is a cancel button  */
+
+.mdl-button--primary.mdl-button--primary {
+    background:rgba(230, 118, 90, 0.466);
+    color:black;
+    border-radius: 20px;
+}
+/* This is a cancel button hover using red color */
+
+.mdl-button--primary.mdl-button--primary:hover,mdl-button--primary.mdl-button--primary:active{
+    background-color: red;
+    font-size: 115%;
+}
+/* This is a textfield of the form */
+
+.mdl-textfield {
+    position: relative;
+    font-size: 28px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 100%;
+    margin: 0;
+    padding: 36px 0;
+    background-color:whitesmoke;
+    border-radius: 15px;
+}
+
+/* title of the form to mark decoration */
+
+.firebaseui-title {
+    padding-bottom: 25px;
+    /* border:solid black; */
+    /* color: aqua; */
+    text-align: center;
+    text-shadow: 0 0 3px, 0 0 5px ;
+    text-decoration: underline;
+}
+.video
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    opacity: 61%;
+}
+
+.image
+{
+    margin-right: 68em;
+    margin-top: -24em;
+}
+.image2
+{
+    margin-left: 58em;
+    margin-top: -18em;
+    margin-right: 14px;
+}
+.footer
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: double;
+    cursor: pointer;
+}
+
+.span_line
+{
+    color: rgb(49, 45, 45);
+    font-weight: normal;
+}
